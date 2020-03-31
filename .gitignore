@@ -1,0 +1,21 @@
+*.pdf
+*.png
+*.jpg
+*.dvi
+*.log
+
+*~
+\#*\#
+*.tar
+*.gz
+
+# latex compilation formats
+*.aux
+*.bbl
+*.lof
+*.log
+*.lot
+*.toc
+*.xml
+*.blg
+*.bcf
