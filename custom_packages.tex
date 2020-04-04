@@ -1,0 +1,36 @@
+%***** Cartella delle immagini *****
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+
+\usepackage{bm}      % making math symbols bold 
+\usepackage{amsmath}
+\usepackage{siunitx} 
+\usepackage{amssymb} % weird math symbols
+
+\usepackage{wrapfig}
+\usepackage[leftcaption]{sidecap}
+\usepackage{mdframed}
+\usepackage{caption}  
+\usepackage{subcaption}
+\usepackage{float}    % option H in figures
+
+\usepackage{hyperref}
+
+%\usepackage{cite}     % [nocompress]
+\usepackage[
+backend=biber,
+style=numeric,%science,
+citestyle=numeric-comp,
+sorting=none
+]{biblatex}
+\addbibresource{bibliography.bib}
+
+\usepackage[left=1.2in,right=1.2in,top=1in,bottom=1in]{geometry}
+\usepackage{multirow} % for tables
+
+\newcommand{\mbf}[1]{\mathbf{#1}}
+\newcommand{\sbf}[1]{\boldsymbol{#1}}
+
+\usepackage[format=plain,indention=1cm,font=small]{caption} %caption indenting(format=hang,format=plain)
+
+\newcommand{\filling}[0]{1}
