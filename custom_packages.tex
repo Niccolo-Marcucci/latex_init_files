@@ -7,6 +7,7 @@
 \usepackage{siunitx} 
 \usepackage{amssymb} % weird math symbols
 
+\usepackage[above]{placeins} % for \FloatBarrier
 \usepackage{wrapfig}
 \usepackage[leftcaption]{sidecap}
 \usepackage{mdframed}
@@ -15,6 +16,15 @@
 \usepackage{float}    % option H in figures
 
 \usepackage{hyperref}
+\hypersetup{
+%    pdfpagemode={UseOutlines},
+%    bookmarksopen,
+%    pdfstartview={FitH},
+    colorlinks,
+    linkcolor={blue},
+    citecolor={blue},
+    urlcolor={blue}
+  }
 
 %\usepackage{cite}     % [nocompress]
 \usepackage[
@@ -34,3 +44,4 @@ sorting=none
 \usepackage[format=plain,indention=1cm,font=small]{caption} %caption indenting(format=hang,format=plain)
 
 \newcommand{\filling}[0]{1}
+\newcommand{\n}{\noindent}
