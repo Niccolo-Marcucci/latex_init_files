@@ -19,6 +19,7 @@
 *.xml
 *.blg
 *.bcf
+*.out
 
 .kile
 .directory
